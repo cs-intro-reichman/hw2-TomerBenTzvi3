@@ -22,7 +22,7 @@ public class Collatz {
 				steps ++;
 			} while (n != 1); 
 			if (verbose) {
-				System.out.print("g(" + steps + ")");
+				System.out.print("(" + steps + ")");
 				System.out.println();
 			}
 		}
