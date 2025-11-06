@@ -9,7 +9,7 @@ public class Cheers {
             for (int i = 0; i < word.length(); i++) {
                 char c = word.charAt(i);
                 nameout = nameout + c;
-                System.out.println("Give me " + ((vowles.indexOf(c) == -1) ? "a  " : "an  ") 
+                System.out.println("Give me " + ((vowles.indexOf(c) == -1) ? "a  " : "an ") 
                 + word.charAt(i) + ": " + word.charAt(i) + "!");
             }
             System.out.println("What does that spell?");

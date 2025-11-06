@@ -11,8 +11,8 @@ public class TimeCalc {
             System.out.println(Newhours + "0" + ":" + "0" + Newminutes);
         } else if (Newhours < 24 && Newhours > 10 && Newminutes == 0 || Newminutes < 10) {
             System.out.println(Newhours + ":" + "0" + Newminutes);
-        } else if (Newhours == 0 && Newminutes > 10) {
-            System.out.println(Newhours + "0" + ":" + Newminutes);
+        } else if (Newhours < 10 && Newminutes > 10 || Newhours == 0 && Newminutes > 10) {
+            System.out.println( "0" + Newhours + ":" + Newminutes);
         } else if (Newhours < 10 && Newminutes < 10) {
             System.out.println( "0" + Newhours + ":" + "0" + Newminutes);
         } else {
